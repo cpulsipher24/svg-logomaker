@@ -1,4 +1,3 @@
-
 const CLI = require('./lib/userInput');
 const { createSVG } = require('./lib/svg');
 const fs = require('fs');
