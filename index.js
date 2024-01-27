@@ -7,8 +7,12 @@ const cli = new CLI();
 async function run() {
   const userInput = await cli.run();
 
+  console.log('Received user input:', userInput);
+
   // Generate SVG content
   const svgContent = createSVG(userInput);
+
+  console.log('Generated SVG content:', svgContent);
 
   // Save SVG to file
   fs.writeFileSync('logo.svg', svgContent);
