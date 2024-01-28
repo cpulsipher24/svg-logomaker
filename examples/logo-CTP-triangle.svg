@@ -1,0 +1,6 @@
+
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="100,10 40,190 190,190" fill="gold" />
+      <text x="50%" y="50%" font-size="20" text-anchor="middle" fill="purple">CTP</text>
+    </svg>
+  
